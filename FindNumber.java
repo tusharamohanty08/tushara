@@ -1,10 +1,8 @@
 class FindNumber {
     public static void main(String[] args) {
-  
-      int[] num = {1, 2, 3, 4, 5};
+     int[] num = {1, 2, 3, 4, 5};
       int toFind = 3;
-      boolean found = false;
-  
+      boolean found = false;  
       for (int n : num) {
         if (n == toFind) {
           found = true;
